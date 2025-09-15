@@ -56,7 +56,7 @@ def generate_launch_description():
         parameters=[controller_params_file]
     )
 
-    delayed_controller_manager = TimerAction(period=3.0, actions=[controller_manager])
+    delayed_controller_manager = TimerAction(period=300.0, actions=[controller_manager])
 
     diff_drive_spawner = Node(
         package="controller_manager",
@@ -105,11 +105,10 @@ def generate_launch_description():
 
     # Launch them all!
     return LaunchDescription([
-        controller_manager,
         rsp,
         # joystick,
         twist_mux,
-        #delayed_controller_manager,
+        delayed_controller_manager,
         delayed_diff_drive_spawner,
         delayed_joint_broad_spawner
     ])
