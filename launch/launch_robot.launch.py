@@ -108,7 +108,7 @@ def generate_launch_description():
         rsp,
         # joystick,
         twist_mux,
-        #delayed_controller_manager,
-        diff_drive_spawner,
+        controller_manager,
+        delayed_diff_drive_spawner,
         delayed_joint_broad_spawner
     ])
