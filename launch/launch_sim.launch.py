@@ -135,7 +135,7 @@ def generate_launch_description():
         gazebo,
         spawn_entity,
         diff_drive_spawner,
-        #joint_broad_spawner,
+        joint_broad_spawner,
         ros_gz_bridge,
         ros_gz_image_bridge
     ])
