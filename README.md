@@ -3,6 +3,8 @@
 
 Forked From: https://github.com/joshnewans/articubot_one (which is built from a template of his)
 
+Josh / Articulated Robotics Tutorial Playlist (Dated but excellent): https://youtu.be/OWeLUSzxMsw?si=AVhM7kZiX2GqiOoU
+
 Updated to work with Jazzy (jazzy branch) and Gazebo Harmonic and Ubuntu 24.04
 
 ## Requirements
